@@ -4,7 +4,7 @@
 
 %%
 192\.168\.1\.100.*  { printf("ACESSO ENCONTRADO: %s\n", yytext); }
-.|\n                ;  // Ignora todas as outras linhas
+.|\n                ;  
 %%
 
 int main() {
